@@ -1,0 +1,309 @@
+*{margin: 0;
+    padding: 0;
+background-color: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;    
+
+}
+.main{
+height: auto;
+    width: 100%;
+
+    background:linear-gradient(to top,rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%) ;
+    background: url(pexels-dominika-roseclay-5276856.jpg);
+background-position: center;
+background-size: cover;
+background-color: ;
+height:100vh;
+
+
+}
+.navbar{
+text-shadow: 100rem;
+text-decoration: solid;
+    height: 9vh;
+    width: 100%;
+color: ;
+margin: auto;
+opacity:.9;
+background-color:;
+
+
+}
+.icon{ width: 10%;
+    height: 5vh;
+padding-top:5px ;
+margin-left: 2%;
+float: left;
+border-bottom: 1px;
+
+}
+.logo{color:orange;
+
+font-size: 30px;
+font-family: Arial,;
+font-weight: bold;
+padding-left: ;
+float: left;
+padding-top: 10px;
+border-bottom: 1px;
+}
+.menu{width: 400px;
+
+float: left;
+height: 70px;
+
+
+}
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 70%;
+}
+ul li{
+    list-style: none;
+    margin-left: 40px;
+margin-top: 27px;
+font-size: 14px;
+
+
+   }
+   ul li a{text-decoration: none;
+
+color: aliceblue;
+font-family: arial;
+font-weight: normal;
+
+    
+   }
+    ul li a:hover {color: white;border-bottom: 2px solid orange;
+        border-top: 2px solid orange;border-left: 2px solid orange
+        ;border-right: 2px solid orange;}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 380px;
+    margin-top: 15px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
+.srch{
+    background:transparent;
+    border: 2px solid orange;
+   border-top-left-radius: 2px;
+   border-bottom-left-radius: 2px;
+    width: 200px;
+    height: 5vh;
+    margin-right: 0;
+    padding-right:0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+}
+.srch:hover{background-color: white;}
+.btn:hover{ background-color: white;color:orange;}
+.btn{
+    background:orange;
+    border: 3.5px solid orange;
+    border-radius: px;
+    color: whitesmoke;
+    height: 5vh;
+    width: 50px;
+    font-weight: bold;
+    box-shadow: 50;
+    margin-left: 0;
+    padding-left: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.border{
+    height: .2vh;
+    width: 100%;
+    background-color: orange;
+}
+.wraper{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.content {
+    height: 100%;
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+}
+.content h1{
+
+    color: white;
+    font-weight:bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 10;
+    margin-bottom: 20px;
+}
+.devlop{
+    color: orange;
+}
+
+.content  p{
+color: white;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+
+.join{
+
+    height: 6vh;
+    width: 17vw;
+   background-color: orange;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  font-weight: bold;
+  font-size: small;
+  margin-top: 30px;
+}
+ .join:focus{
+    outline: none;
+}
+
+.join:hover{  background-color: aliceblue;
+color:orange;
+
+}
+.form {
+    width:30% ;
+    height: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+margin-left: 30%;
+margin-top: 7%;
+justify-content: center;
+border-radius: 6%;
+text-align: center;
+color: aliceblue;
+display:;
+margin-right: 8%;
+
+  }
+.form h2{
+ width: 200px;
+ height: 4vh;
+ font-size: larger;
+ font-weight:normal;
+ text-align: center;
+ border-radius: 7px;
+ margin-left: 10%;
+ margin-top: 6%;
+ margin-bottom: 5%;
+ background-color: aliceblue;
+ 
+ color: orange;
+}
+  .form input{
+    width:90%;
+    height: 4vh;
+    background:transparent ;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-bottom: 1px solid orange;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    color: white;
+  }
+  .form button{
+    width: 30%;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+  }
+  .form button:focus{
+    outline: none;
+}
+.form button a{
+    font-size:small;
+    font-weight: normal;
+    color:white;
+}
+.form button:hover{    background-color: antiquewhite;
+
+}
+.form button a:hover{
+    color: orange;    background-color: antiquewhite;
+}
+
+.form  a{
+color: orange;
+margin-bottom: 10%;
+height: 3vh;
+width: 5vw;
+}
+
+.form .link{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+.form .log{
+    height: 4vh;
+    width: ;
+    margin-left: 10px   ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.log{
+    font-size:small;
+}
+.logos i{
+    font-size: larger;
+    letter-spacing: 15px;
+    margin-bottom: 19%;
+}
+.logos i:hover{color: orange;
+font-size: x-large;
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
